@@ -14,9 +14,6 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,6 +26,33 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+.container {
+  margin-left: 0;
+  margin-right: 0;
+}
+/*****************************************************************************/
+/*
+/* Sidebar
+/*
+/*****************************************************************************/
+@media (min-width: 992px){
+  .affix{
+    top: -130px;
+    width: auto;
+  }
+}
+@media (max-width: 992px){
+  .affix{
+    position: relative;
+  }
+}
+.affix-top{
+  margin-top: 20px;
+}
+
+.nav{
+  font-size: 32px;
+}
 /*****************************************************************************/
 /*
 /* Logo
@@ -39,9 +63,6 @@ a:visited { color: #a0a; }
   width:200px;
   height:200px;
   float:left;
-  position: fixed;
-  top: 20px;
-  left: 50px;
 }
 svg > * {
     fill: #3f3f3f;
@@ -238,4 +259,13 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+/*****************************************************************************/
+/*
+/* Gallery
+/*
+/*****************************************************************************/
+
+.gallery a {
+  text-decoration: none;
 }
