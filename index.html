@@ -4,13 +4,12 @@ title: Pedal Driven Programming
 ---
 
 <div id="home">
-  <h1>Pedal Driven Programming</h1>
   {% if paginator.page == 1 %}
   <div class="row">
     {% for post in site.categories.featured %}
       <div class="col-md-6 featured">
       <a href="{{ post.url }}">
-        <div class="featured-item" style="background: url('{{ site.image_url}}/featured/{{ post.featured_image }}'">
+        <div class="featured-item" style="background-image: url('{{ site.image_url}}/featured/{{ post.featured_image }}')">
         <div class="featured-overlay">
           <span class="title">{{ post.title }}</span><br/>
           </div>

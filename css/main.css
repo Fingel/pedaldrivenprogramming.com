@@ -27,8 +27,7 @@ h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
 a         { color: rgb(204, 102, 0); text-decoration: none; }
-a:hover   { color: rgb(204, 102, 0); }
-a:visited { color: rgb(204, 102, 0); }
+a:hover   { color: rgb(232, 116, 0); text-decoration: none;}
 
 .container {
   margin-left: 0;
@@ -74,12 +73,15 @@ img {
 }
 
 .sidebar{
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
-.sidebar .nav li{
+.sidebar .navlinks li{
   font-size: 32px;
   font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  list-style: none outside none;
+  transition: color 0.2s ease-in-out 0s;
 }
 
 .sidebar .topics li {
@@ -106,9 +108,9 @@ svg > * {
     fill: #3f3f3f;
 }
 svg text {
-    font-size: 49px;
+    font-size: 62px;
     font-weight: 900;
-    font-family: sans-serif;
+    font-family: monospace;
 }
 
 .go-clockwise {
@@ -178,6 +180,11 @@ svg path {
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
+  font-size: 22px;
+}
+
+#home{
+  margin-top: 25px;
 }
 
 /*****************************************************************************/
