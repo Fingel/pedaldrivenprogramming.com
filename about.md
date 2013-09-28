@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 categories: []
 tags: []
@@ -7,11 +7,6 @@ status: publish
 type: page
 published: true
 permalink: /about/
-meta:
-  _edit_last: '1'
-  _wp_page_template: page-templates/full-width.php
-  _wpas_done_all: '1'
-  _post_restored_from: a:3:{s:20:"restored_revision_id";i:12;s:16:"restored_by_user";i:1;s:13:"restored_time";i:1377385454;}
 ---
 About
 =====

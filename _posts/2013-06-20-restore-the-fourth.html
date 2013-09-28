@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Coding Restore The Fourth
-categories:
-- Programming
-- Python
-- Technology
+categories: code featured
+featured_image: rt4.png
 tags:
 - ! '#restorethe4th'
 - Django
@@ -31,20 +29,27 @@ I'm sympathetic with this cause. And despite most likely being placed on a gover
 One of the coolest features of the website is the map on the front page. The locations are set by pulling objects from the database that represent protests. These objects are editable in the back end by regular admins using Django's awesome gui admin interface.
 
 When creating a protest via the admin interface you don't need to supply a latitude/longitude pair (which are needed for google maps) but instead the backend utilizes the <a href="https://developers.google.com/maps/documentation/business/geolocation/">Google Maps Geolocation Api</a> so all that's needed is a city and/or state. To make that process easy, we're using <a href="https://code.google.com/p/geopy/">geopy</a>, a geolocation library for Python. In the Protest model, we can simply call this:
-<pre class="lang:python decode:true">def generateLatLong(self):
+<br/><br/>
+{% highlight python %}
+def generateLatLong(self):
     g = geocoders.GoogleV3()
     place, (lat, lng) = g.geocode("{0} {1}".format(self.state, self.city),exactly_one=True)
     self.latitude = lat
-    self.longitude = lng</pre>
+    self.longitude = lng
+{% endhighlight %}
 to generate a proper latitude/longitude pair for the object, using it's city and state.
 
 Then in our views, we make a method to serialize these objects as json:
-<pre class="lang:python decode:true">def protestsjson(request):
+{% highlight python %}
+def protestsjson(request):
     protest_list = Protest.objects.all()
     data = serializers.serialize('json', protest_list)
-    return HttpResponse(data, mimetype="application/json")</pre>
+    return HttpResponse(data, mimetype="application/json")
+{% endhighlight %}
 From there, its just a matter of telling the google map to use those objects to create markers:
-<pre class="lang:js decode:true">var map = new EventsMap();
+
+{% highlight javascript %}
+var map = new EventsMap();
     $.getJSON('/protests.json', function(data){
     map.plotStaticMarkers(data);
 });
@@ -68,7 +73,8 @@ this.plotStaticMarkers = function(data){
          infoWindow.open(map, marker);
          });
     })
-}</pre>
+}
+{% endhighlight %}
 And there we have it, a neat interactive map that doesn’t require a developer's involvement to edit! And we know developers love that.
 
 Check it out in action: <a href="http://www.restorethefourth.net">http://www.restorethefourth.net</a>

@@ -17,8 +17,8 @@
         
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script src="/js/jquery.sticky.js"></script>
+        <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+        <script src="/js/jquery-2.0.3.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
 
 
@@ -27,9 +27,10 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-md-2 sidebar">
-              <div  data-spy="affix" data-offset-top="100">
+            <div class="col-md-3 sidebar">
+              <div data-spy="affix" data-offset-top="100">
                 <div class="svg" id="logo">
+                  <a href="/">
                   <svg x="0px" y="0px" width="200" height="200" viewBox="0 0 200 200">
                     <title>PDP</title>
                     <text x="44" y="120" class="gear_text">PDP</text>
@@ -39,12 +40,15 @@
                       </g>
                     </g>
                   </svg>
+                  </a>
                 </div>
-                <ul class="nav">
-                  <li>About</li>
-                  <li>Projects</li>
-                  <li>Home</li>
-                </ul>
+                <div>
+                  <ul class="nav">
+                    <a href="/"><li>Home</li></a>
+                    <a href="/about"><li>About</li></a>
+                    <a href="/projects"><li>Projects</li></a>
+                  </ul>
+                </div>
               </div>
             </div>
             <div class="col-md-8 col-md-offset-1">
@@ -75,12 +79,18 @@
             }
             $this.data('scrollTimeout', setTimeout(callback,150,self));
         });
-    };
+      };
 
-$(window).scrollStopped(function(){
-    $('#gear-group').attr("class", "");
-    $('#gear-group').attr("class", ""); 
-});
+      $(window).scrollStopped(function(){
+          $('#gear-group').attr("class", "");
+          $('#gear-group').attr("class", ""); 
+      });
+
+      $(".featured-item").hover( function() {
+         $( this ).children(".featured-overlay").fadeIn(350, "swing");
+        }, function() {
+        $( this ).children(".featured-overlay").fadeOut(350, "swing");
+      });
     </script>
     
     </body>

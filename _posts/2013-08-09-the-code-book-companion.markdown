@@ -1,23 +1,16 @@
 ---
 layout: post
 title: The Code Book Companion
-categories:
-- Books
-- Programming
+categories: code featured
+featured_image: codebook.png
 tags:
 - Cryptography
 - Examples
 - javascript
 - Simon Singh
 - The Code Book
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: '1'
-  _wpas_done_all: '1'
 ---
-<img class="alignright size-medium wp-image-856" alt="codebook" src="https://s3-us-west-2.amazonaws.com/pedaldp/uploads/2013/08/codebook-195x300.jpg" width="195" height="300" />I've been on a cryptology kick recently, which is really no surprise. With all the recent news about <a href="http://www.theguardian.com/world/2013/aug/09/nsa-loophole-warrantless-searches-email-calls">domestic surveillance</a> and services providing private communication being <a href="http://rt.com/usa/lavabit-email-snowden-statement-247/">forcefully shut down</a>, I have to admit my sympathy for the foil hats has increased considerably.
+<img class="alignleft" src="https://s3-us-west-2.amazonaws.com/pedaldp/uploads/2013/08/codebook-195x300.jpg" width="195" height="300" />I've been on a cryptology kick recently, which is really no surprise. With all the recent news about <a href="http://www.theguardian.com/world/2013/aug/09/nsa-loophole-warrantless-searches-email-calls">domestic surveillance</a> and services providing private communication being <a href="http://rt.com/usa/lavabit-email-snowden-statement-247/">forcefully shut down</a>, I have to admit my sympathy for the foil hats has increased considerably.
 
 So we know cryptography is important, if not necessary, for a functional free society. But it's also really 'effin cool.  The world of cryptography is an even mix of mathematics, information science, and civil disobedience. What's not to love?
 

@@ -1,24 +1,21 @@
 ---
 layout: post
 title: Sort Table of Contents Style Strings In Java
-categories:
-- Java
-- Programming
+categories: code
 tags:
 - Decimals
 - Java
 - Natural Sort
 - Strings
 - Table Of Contents
-status: publish
 type: post
-published: true
-meta:
-  _edit_last: '1'
-  _wpas_done_all: '1'
 ---
-This is for when you have String likes "1.1", "1.2"..."1.10" such that you want "1.10" &gt; "1.1". Just another example of terrible code programmers have to write when people insist on presenting data in illogical ways.
-<pre class="toolbar-overlay:false lang:java decode:true" title="Table of Contents Coparator">private static class TocComparator implements Comparator&lt;String&gt;{
+This is for when you have String likes "1.1", "1.2"..."1.10" such that
+you want "1.10" &gt; "1.1". Just another example of terrible code programmers
+have to write when people insist on presenting data in illogical ways.
+
+{% highlight java %}
+private static class TocComparator implements Comparator&lt;String&gt;{
     public int compare(String s1, String s2){
         Integer s1front = Integer.parseInt(s1.substring(0, s1.indexOf('.')));
         Integer s2front = Integer.parseInt(s2.substring(0, s2.indexOf('.')));
@@ -31,5 +28,6 @@ This is for when you have String likes "1.1", "1.2"..."1.10" such that you want 
             return s1front.compareTo(s2front);
         }
     }
-}</pre>
-This class is a comparator which can be used with Collections.sort()
+}
+{% endhighlight %}
+This class is a comparator which can be used with `Collections.sort()`

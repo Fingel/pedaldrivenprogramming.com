@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Bikes Planes and Automobiles - Riding the Chilcotins
-categories:
-- Cycling
-- Rides
+categories: featured rides
+featured_image: chilcotins.png
+excerpt: Epic mountain biking in one of Canada's most serene and remote locations.
 tags:
 - Chilcotin
 - Floatplane

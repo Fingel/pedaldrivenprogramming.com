@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald|Abel);
 /*****************************************************************************/
 /*
 /* Common
@@ -14,21 +15,43 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-family: 'Oswald', sans-serif;
+  }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: rgb(204, 102, 0); text-decoration: none; }
+a:hover   { color: rgb(204, 102, 0); }
+a:visited { color: rgb(204, 102, 0); }
 
 .container {
   margin-left: 0;
   margin-right: 0;
+}
+
+img {
+  background: none repeat scroll 0% 0% rgb(255, 255, 255);
+  padding: 8px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.alignleft {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 /*****************************************************************************/
 /*
@@ -50,8 +73,21 @@ a:visited { color: #a0a; }
   margin-top: 20px;
 }
 
-.nav{
+.sidebar{
+  padding-left: 20px;
+}
+
+.sidebar .nav li{
   font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.sidebar .topics li {
+  list-style-type: none;
+  border: 1px solid;
+  display: inline;
+  padding: 2px;
+  margin: 2px;
 }
 /*****************************************************************************/
 /*
@@ -63,13 +99,16 @@ a:visited { color: #a0a; }
   width:200px;
   height:200px;
   float:left;
+  margin-bottom: 15px;
+  margin-right: 20px;
 }
 svg > * {
     fill: #3f3f3f;
 }
 svg text {
-    font-size: 55px;
+    font-size: 49px;
     font-weight: 900;
+    font-family: sans-serif;
 }
 
 .go-clockwise {
@@ -139,16 +178,6 @@ svg path {
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
 }
 
 /*****************************************************************************/
@@ -259,6 +288,42 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+/*****************************************************************************/
+/*
+/* Featured
+/*
+/*****************************************************************************/
+.featured {
+  margin-bottom: 25px;
+}
+
+
+.featured-item {
+ max-width:360px;
+ height: 200px;
+ box-shadow: 0px 0px 5px rgb(136, 136, 136);
+}
+
+.featured a {
+  text-decoration: none;
+}
+
+.featured-overlay {
+  display: none;
+  color: #ffffff;
+  background-color: rgb(0,0,0);
+  width: 100%;
+  padding: 7px;
+}
+
+.featured-overlay .title{
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.featured-overlay .excerpt {
+  font-size: 22px;
 }
 /*****************************************************************************/
 /*

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Shaftoe - A Simple Web Service for Encrypting Messages Using PGP
-categories:
-- Programming
+categories: code featured
+featured_image: shaftoe.png
 tags:
 - Email
 - Encryption

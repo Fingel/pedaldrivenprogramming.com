@@ -1,9 +1,7 @@
 ---
 layout: post
 title: ! 'Little Known Fact: Blue Jays are Vicious Carnivores'
-categories:
-- Bizzare
-- Science
+categories: other
 tags:
 - blue jay
 - carniverous
