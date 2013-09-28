@@ -14,11 +14,8 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
-  _wpas_done_all: '1'
 ---
-<a href="https://s3-us-west-2.amazonaws.com/pedaldp/uploads/2013/02/fountainhead.gif"><img class="aligncenter size-full wp-image-605" alt="fountainhead" src="https://s3-us-west-2.amazonaws.com/pedaldp/uploads/2013/02/fountainhead.gif" width="300" height="459" /></a>
+<a href="https://s3-us-west-2.amazonaws.com/pedaldp/uploads/2013/02/fountainhead.gif"><img class="alignleft" alt="fountainhead" src="https://s3-us-west-2.amazonaws.com/pedaldp/uploads/2013/02/fountainhead.gif" width="300" height="459" /></a>
 
 I just finished reading Ayn Rand's beast of a novel, The Fountainhead. I enjoyed every one of this book's ~800 pages and myriad of characters. Though I found some of the ideas  put forward in the novel hard to agree with, and others downright baffling, Rand's talent as a writer makes this book intoxicating.
 

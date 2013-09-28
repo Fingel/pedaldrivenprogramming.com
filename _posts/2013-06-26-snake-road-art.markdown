@@ -28,8 +28,12 @@ I've had some pretty cool commute routes in the last few years but this section 
 
 I'm not sure when construction will begin in earnest and I will no longer be able to ride this route. I decided that I better take some pictures while I have the chance. I also uploaded a video (sorry for the shakiness) that sort of illustrates how awesome it is to ride on this road. Contact me if you'd like the full size images. They were taken with a cell phone, so not that great.
 
-http://youtu.be/7kzVxUxOmdw
+<iframe width="560" height="315" src="//www.youtube.com/embed/7kzVxUxOmdw" frameborder="0" allowfullscreen></iframe>
 
-[gallery ids="753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780"]
-
-P.S Sam 2012 and MW you are awesome.
+{% flickr_set 72157635968611896 %}
+<script src="/js/jquery.colorbox-min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('p.gallery > a').colorbox({rel:'gal'});
+  });
+</script>
