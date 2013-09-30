@@ -1,11 +1,7 @@
 ---
 layout: post
 title: Copy Contents of one S3 Bucket to Another.
-categories:
-- Linux
-- Programming
-- Ruby
-- Technology
+categories: code
 tags:
 - Amazon AWS
 - AWS
@@ -14,17 +10,13 @@ tags:
 - files
 - right aws
 - S3
-status: publish
 type: post
-published: true
-meta:
-  _edit_last: '1'
-  _wp_old_slug: ''
 ---
 Need to automate copying files from one Amazon S3 bucket to another? So did I. Everything I found on google, <a href="http://snippets.dzone.com/posts/show/4935">like this,</a> was useless. Most of the scripts I found required downloading the objects first to the local machine and then reuploading them to the destination bucket. Unacceptable, especially if you are dealing with a large and or many files.
 
-I've never written a line of Ruby before, but it seems like there are some great AWS libraries for it, so I decided to give it a shot. There is a cool library out there called<a href="http://rubyforge.org/projects/rightscale"> right_aws</a>. You can install it using "#gem install right_aws". Then simply copy this script:
-<pre class="brush:ruby">#!/usr/bin/env ruby
+I've never written a line of Ruby before, but it seems like there are some great AWS libraries for it, so I decided to give it a shot. There is a cool library out there called<a href="http://rubyforge.org/projects/rightscale"> right_aws</a>. You can install it using `#gem install right_aws`. Then simply copy this script:
+{% highlight ruby %}
+#!/usr/bin/env ruby
 require 'right_aws'
 
         S3ID = "Your AWS ID Here"
@@ -38,7 +30,8 @@ require 'right_aws'
         puts("Copying " +  o[:key])
         s3.copy(SRCBUCKET, o[:key], DESTBUCKET, o[:key])
         end
-        puts("Done.")</pre>
+        puts("Done.")
+{% endhighlight %}
 Make sure the file is executable and you should be able to run it via command line on any unix system. To make a generic ruby script get rid of the first line.
 
 I know its pretty brutish, probably sucks in more ways than one, but for now it works. And I think I like Ruby :D
