@@ -20,4 +20,4 @@ I'm not all tech. Cycling (especially the variant performed off-road) is one of 
 
 Through my experiences and knowledge I hope to contribute something beneficial to a society where creativity, exploration and freedom of expression are valued over material wealth, sterilized career paths and censorship. This website is my attempt at documenting that pursuit.
 
-I can be reached at root@austinriba.com - <a href="http://www.pedaldrivenprogramming.com/wp-content/uploads/2009/11/pubkey1.txt">GPG Key</a>
+I can be reached at root@austinriba.com - [PGP key](http://toxiccode.com/misc/pubkey.txt)
