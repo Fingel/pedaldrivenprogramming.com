@@ -4,7 +4,6 @@ title: Goodbye Wordpress
 date: 2013-09-30 11:46:28 -0700
 categories: code
 ---
-<img src="{{site.image_url}}/{{page.id | replace: '/','-' | remove_first: '-'}}/jekyll.jpg">
 
 For the past 6 years this blog has been running off
 the same Wordpress install on a 1&1 shared hosting account without
