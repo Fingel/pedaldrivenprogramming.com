@@ -99,20 +99,23 @@ img {
 /*
 /*****************************************************************************/
 
+#logo {
+  width: 100%
+}
+
 .svg {
   width:200px;
   height:200px;
   float:left;
   margin-bottom: 15px;
-  margin-left: 10%;
 }
 svg > * {
     fill: #3f3f3f;
 }
 svg text {
-    font-size: 62px;
+    font-size: 54px;
     font-weight: 900;
-    font-family: monospace;
+    font-family: Helvetica;
 }
 
 .go-clockwise {
@@ -344,4 +347,14 @@ ul.posts {
 
 .gallery a {
   text-decoration: none;
+}
+
+/*****************************************************************************/
+/*
+/* Code
+/*
+/*****************************************************************************/
+
+code {
+  font-size: 80%;
 }
