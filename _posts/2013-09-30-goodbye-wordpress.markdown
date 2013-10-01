@@ -66,6 +66,6 @@ end
 
 {% endhighlight %}
 
-This post was written in a text editor. It will be published to my vpn
+This post was written in a text editor. It will be published to my vps
 with a `git push deploy master`. _Cool_.
 

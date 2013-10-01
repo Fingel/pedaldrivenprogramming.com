@@ -6,6 +6,16 @@ layout: default
 <div class="post">
 {{ content }}
 </div>
+<div class="prevnext">
+  <hr/>
+  {% if page.previous %}
+  <a href="{{ page.previous.url }}">&#171; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next %}
+  <span class="pull-right"><a href="{{ page.next.url }}">{{page.next.title}} &#187;</a></span>
+  {% endif %}
+<hr/>
+</div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 var disqus_url = '{{site.url}}{{ page.url }}';
