@@ -70,10 +70,12 @@ img {
 }
 .affix-top{
   margin-top: 20px;
+  margin-bottom: 75px;
 }
 
 .sidebar{
   padding-left: 25px;
+  text-align: center;
 }
 
 .sidebar .navlinks li{
@@ -102,7 +104,7 @@ img {
   height:200px;
   float:left;
   margin-bottom: 15px;
-  margin-right: 20px;
+  margin-left: 10%;
 }
 svg > * {
     fill: #3f3f3f;
@@ -181,6 +183,7 @@ ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
   font-size: 22px;
+  line-height: 1.8em;
 }
 
 #home{
@@ -319,9 +322,10 @@ ul.posts {
 .featured-overlay {
   display: none;
   color: #ffffff;
-  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
   width: 100%;
   padding: 7px;
+  line-height: 1.2em;
 }
 
 .featured-overlay .title{
