@@ -315,6 +315,10 @@ ul.posts {
   margin-bottom: 25px;
 }
 
+.featured a:hover .featured-overlay {
+    visibility: visible;
+    opacity:1;
+}
 
 .featured-item {
  max-width:360px;
@@ -327,17 +331,23 @@ ul.posts {
 }
 
 .featured-overlay {
-  display: none;
+  display: block;
   color: #ffffff;
   background-color: rgba(0,0,0,0.8);
   width: 100%;
   padding: 7px;
-  line-height: 1.2em;
+  visiblility:hidden;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 .featured-overlay .title{
   font-size: 32px;
   text-decoration: none;
+  line-height: 1.2em;
 }
 
 .featured-overlay .excerpt {
