@@ -2,8 +2,8 @@
 layout: post
 title: Graphing the Tour De France
 categories:
-- Cycling
-- Programming
+- Rides
+- Code
 tags:
 - data
 - graph
@@ -12,12 +12,8 @@ tags:
 - race
 - stats
 - Tour De France
-status: publish
 type: post
-published: true
-meta:
-  _edit_last: '1'
-  _wpas_done_all: '1'
+
 ---
 Two things are going on right now:
 
@@ -30,6 +26,7 @@ I started looking around and <a title="Highcharts" href="http://www.highcharts.c
 At the same time, I found a bunch of cool historical data on the Tour De France. I set up a MySQL database, made a few PHP pages, and here we have the results.
 
 The most interesting metric is the average speed of the winner over the years. It is amazing to see the acceleration, though there appears to be an plateau or possible even a decline in the last few years. Doping possibly?
+
 <iframe width="608" height="400" style="border: 0px none transparent;" src="http://toxiccode.com/misc/tdf-stats/speedbyyear.php" frameborder="0" scrolling="no"></iframe>
 
 What ages are winning the tour?
