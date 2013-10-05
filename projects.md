@@ -43,6 +43,14 @@ dictated limits and respect the Fourth Amendment.
 
 [Read More](/2013/06/restore-the-fourth/)
 
+Firetrades.com
+----------
+A Ruby on Rails application to facilitate cross department shift trading for
+the San Francisco Fire department, which is apparently still stuck in the
+stone age.
+
+[Read More](http://www.firetrades.com)
+
 Rentistry
 ---------
 A social website for renting scarcely used assets to other people in the
@@ -50,6 +58,8 @@ neighborhood (kayaks, lawn mowers, etc). Could be catagorized as part of
 the "share economy". Currently unfinished.
 
 [Read More](https://github.com/WD-42/rentistry)
+
+
 
 More on Github
 --------------

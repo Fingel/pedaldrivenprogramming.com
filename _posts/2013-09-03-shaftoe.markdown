@@ -27,7 +27,7 @@ But PGP isn't so hard to set up that our machines can't use it to send us messag
 
 Shaftoe is a proof of concept of how that can be done. It's a simple webservice, 2 methods only: one for storing keys, and the other for encrypting text using those keys. The bare minimum needed for encrypting email with PGP. You can find instructions on how to download and run it yourself on <a href="https://github.com/AustinRiba/shaftoe">Github</a>.
 
-The script is written in PHP because it uses Jason Hinkle's excellent <a href=" https://github.com/jasonhinkle/php-gpg">php-pgp</a> library. This was the only decent and working OpenPGP implementation I could find that doesn’t require a compiled binary  (I'll leave it to the reader to derive conclusions about the state of PGP) and all it does is encrypt. In fact it works very well.
+The script is written in PHP because it uses Jason Hinkle's excellent <a href=" https://github.com/jasonhinkle/php-gpg">php-pgp</a> library. This was the only decent and working OpenPGP implementation I could find that doesn’t require a compiled binary and all it does is encrypt. In fact it works very well.
 
 <strong>Below is an example using the service. It asks you for an idetifier and your public key in ASCII format, then returns a random encrypted quote.</strong>
 
