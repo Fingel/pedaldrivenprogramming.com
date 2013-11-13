@@ -31,4 +31,4 @@ sites tested will switch to https once the user starts doing something
 that involves user input, or dealing with data that may be considered sensitive.
 
 Still, the SSL turnout is less than stellar. Let's hope for an increase to the
-0.044 percent figure soon.
+0.44 percent figure soon.
