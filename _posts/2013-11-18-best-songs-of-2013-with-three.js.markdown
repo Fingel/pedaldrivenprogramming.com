@@ -25,8 +25,8 @@ not enjoy this site.
 Obviously, I used [Three.js](http://threejs.org/) to set the scene
 (pun intended) but I also used [Buzz.js](http://buzz.jaysalvat.com/)
 for handling the music because the native `<audio>` element was not holding
-up well with so much music playing at once. Both are very nice libraries,
-it's a good time to be a web developer!
+up well with so much music playing at once. It was my first time with both
+libraries. Three.js has a steep learning curve, but nothing impossible.
 
 One of the coolest things about 3D programming is how much math you have
 to use. I can't even remember that last time I got to write code that used
