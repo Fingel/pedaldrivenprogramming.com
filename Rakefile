@@ -28,7 +28,7 @@ file.puts post
 end
 puts "new post generated in #{path}"
 system "mkdir #{image_dir}"
-system "geany #{path}"
+system "gedit #{path}"
 end
 
 task :s3sync do
