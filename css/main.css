@@ -87,12 +87,10 @@ img {
   transition: color 0.2s ease-in-out 0s;
 }
 
-.sidebar .topics li {
-  list-style-type: none;
-  border: 1px solid;
-  display: inline;
-  padding: 2px;
-  margin: 2px;
+.social li {
+    list-style-type: none;
+    display: inline;
+    padding: 4px;
 }
 /*****************************************************************************/
 /*
