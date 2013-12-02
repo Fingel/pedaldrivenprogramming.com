@@ -42,6 +42,10 @@ img {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
+img .header {
+    width: 100%;
+}
+
 .alignleft {
   float: left;
   margin-right: 10px;
