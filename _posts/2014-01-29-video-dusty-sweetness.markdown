@@ -2,7 +2,8 @@
 layout: post
 title: "First Foray into Video Editing: Dusty Sweetness"
 date: 2014-01-29 12:47:42 -0800
-categories: bikes
+categories: bikes featured
+featured_image: sweetness.png
 ---
 <!-- {{site.image_url}}/{{page.id | replace: '/','-' | remove_first: '-'}}/image.jpg -->
 
