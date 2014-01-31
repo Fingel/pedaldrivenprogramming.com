@@ -1,0 +1,23 @@
+---
+layout: default
+title: Pedal Driven Programming | Featured Posts
+status: publish
+type: page
+published: true
+permalink: /featured/
+---
+<div id="home">
+    <div class="row">
+        {% for post in site.categories.featured %}
+        <div class="col-md-6 featured">
+            <a href="{{ post.url }}">
+            <div class="featured-item" style="background-image: url('{{ site.image_url}}/featured/{{ post.featured_image }}')">
+                <div class="featured-overlay">
+                    <span class="title">{{ post.title }}</span><br/>
+                </div>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
