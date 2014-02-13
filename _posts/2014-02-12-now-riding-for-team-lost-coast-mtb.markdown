@@ -10,7 +10,7 @@ Thats right, I'm on a real bike team now. I'm not talking about a team like
 [Team Dirtbag](http://www.teamdirtbag.com) I'm talking about a full legit bike team
 with kits, sponsors and *free stuff, bro*.
 
-![Rad Racing]({{site.image_url}}/{{page.id | replace: '/','-' | remove_first: '-'}}/rad.jpg)
+{% s3_image rad.jpg, rad %}
 
 Our main sponsors are [Lost Coast Brewing](http://www.lostcoast.com/) and [Marin 
 Bikes](http://www.marinbikes.com) - beer and bikes. What more can you ask for?
@@ -31,7 +31,7 @@ bot's days.
 
 Interestingly, Blogger seems to count bots as visitors it's blogs:
 
-![Blogger Spam]({{site.image_url}}/{{page.id | replace: '/','-' | remove_first: '-'}}/bloggerstats.png)
+{% s3_image bloggerstats.png, bloggerstats %}
 
 Whereas Wordpress does not. (The blog gets maybe 5-10 legit visits a day...) I'm 
 assuming many of these bots are programmed specifically for Blogger blogs and are 
@@ -39,7 +39,7 @@ probably failing now. The good ones most likely detect Wordpress forms and are s
 able to submit comments. Load on the server has also visibly increased since the 
 domain was switched. 
 
-![Linode Stats]({{site.image_url}}/{{page.id | replace: '/','-' | remove_first: '-'}}/linodestats.png)
+{% s3_image linodestats.png, linodestats %}
 
 But it is still pathetically low. Anyway, moral of the story is: comments suck.
 Also, I need to start training. Part of being on a team is knowing how to ride.

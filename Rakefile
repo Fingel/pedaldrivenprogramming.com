@@ -19,7 +19,6 @@ title: TITLE
 date: DATE
 categories: CATEGORY
 ---
-<!-- {{site.image_url}}/{{page.id | replace: '/','-' | remove_first: '-'}}/image.jpg -->
 
 HTML
 post.gsub!('TITLE', title).gsub!('DATE', Time.new.to_s).gsub!('CATEGORY', category)
