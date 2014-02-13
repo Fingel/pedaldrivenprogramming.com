@@ -3,9 +3,8 @@ layout: default
 title: Pedal Driven Programming
 ---
 
-<div id="home">
   {% if paginator.page == 1 %}
-  <div class="row">
+  <div class="row featured-wrapper">
     {% for post in site.categories.featured limit: 4 %}
       <div class="col-md-6 featured">
       <a href="{{ post.url }}">
@@ -17,14 +16,16 @@ title: Pedal Driven Programming
       </a>
       </div>
     {% endfor %}
-    <span class="pull-right"><a href="featured">More &raquo;</a></span>
+
   </div>
   {% endif %}
-  <ul class="posts">
-    {% for post in paginator.posts %}
-      <li><span class="post-list">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div class="row content">
+      <ul class="posts">
+        {% for post in paginator.posts %}
+          <li><span class="post-list">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+  </div>
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
@@ -43,4 +44,3 @@ title: Pedal Driven Programming
       <span class="next ">Next  &#187; </span>
     {% endif %}
   </div>
-</div>

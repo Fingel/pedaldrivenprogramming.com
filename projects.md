@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Projects
 categories: []
 tags: []
@@ -8,8 +8,6 @@ type: page
 published: true
 permalink: /projects/
 ---
-Projects
-=====
 
 The following are a few examples of projects I have worked on in my free
 time.

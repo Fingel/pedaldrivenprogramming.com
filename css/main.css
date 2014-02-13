@@ -14,9 +14,10 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background: url('../img/grain.png') repeat scroll 0px 0px #EAEFF2;
   font-family: 'Abel', sans-serif;
   font-size: 18px;
+  color: #3F3F3F;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,13 +29,25 @@ h2 { font-size: 26px; }
 p { margin: 1em 0; }
 
 a         { color: rgb(204, 102, 0); text-decoration: none; }
-a:hover   { color: rgb(232, 116, 0); text-decoration: none;}
+a:hover   { color: rgb(232, 116, 0); text-decoration: none; }
 
 .container {
   margin-left: 0;
   margin-right: 0;
 }
 
+.content {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-left: 1px solid rgb(242, 153, 36);
+    border-right: 1px solid rgb(242, 153, 36);
+    border-bottom: 1px solid rgb(242, 153, 36);
+    border-top: 1px solid rgb(242, 153, 36);
+}
+
+.pull-up {
+    margin-top: -1px; /*hax*/
+}
 img {
   background: none repeat scroll 0% 0% rgb(255, 255, 255);
   padding: 8px;
@@ -66,6 +79,7 @@ img .header {
   .affix{
     top: -130px;
     width: auto;
+    padding-left: 25px;
   }
 }
 @media (max-width: 992px){
@@ -81,6 +95,10 @@ img .header {
 .sidebar{
   padding-left: 25px;
   text-align: center;
+}
+
+.sidebar a {
+    color: #3F3F3F;
 }
 
 .sidebar .navlinks li{
@@ -141,7 +159,7 @@ svg path {
     -webkit-transform: translate(-100px,-100px);
     -moz-transform: translate(-100px,-100px);
     transform: translate(-100px,-100px);
-    
+
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     transform-origin: 0 0;
@@ -319,8 +337,18 @@ ul.posts {
 /* Featured
 /*
 /*****************************************************************************/
+.featured-wrapper {
+  background: url('../img/grain.png') repeat scroll 0px 0px #EAEFF2;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  color: #3F3F3F;
+}
 .featured {
   margin-bottom: 25px;
+}
+
+.featured-wrapper {
+    padding-top: 20px;
 }
 
 .featured a:hover .featured-overlay {

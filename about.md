@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About
 categories: []
 tags: []
@@ -8,8 +8,7 @@ type: page
 published: true
 permalink: /about/
 ---
-About
-=====
+
 I'm Austin Riba. This website is a collection of my thoughts, discoveries and projects.
 
 The first entry on this blog dates back to [November 2006](/2006/11/second-day-in-auckland/). The site has changed a lot since then and so has it's author.
