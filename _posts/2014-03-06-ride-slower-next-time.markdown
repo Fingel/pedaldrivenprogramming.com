@@ -17,5 +17,7 @@ When you return you remember the reasons why you started. For me it happened in 
 
 I think everyone deserves a little time to just get stoked. Turn the Garmin off (or at least forget about it), slow down a bit. Take that line you've always been afraid of, or hit that jump you've always ridden around. Hell, take a moment to appreciate the wonderful natural world around you. Most people are not so lucky.
 
+*Photo by Josh Moberg*
+
 
 
