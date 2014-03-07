@@ -6,6 +6,7 @@ require 'rubygems'
 title = ENV["title"] || "New Title"
 category = ENV["category"] || "other"
 slug = title.gsub(' ','-').downcase
+editor = "subl"
  
 TARGET_DIR = "_posts"
 
@@ -27,7 +28,7 @@ file.puts post
 end
 puts "new post generated in #{path}"
 system "mkdir #{image_dir}"
-system "gedit #{path}"
+system "#{editor} #{path}"
 end
 
 task :s3sync do
