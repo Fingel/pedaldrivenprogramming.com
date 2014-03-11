@@ -14,9 +14,9 @@
 html, body { height: 100%; }
 
 body {
-  background: url('../img/grain.png') repeat scroll 0px 0px #EAEFF2;
+  background: url('../img/fuzzy.png') repeat scroll 0px 0px #EAEFF2;
   font-family: 'Abel', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #3F3F3F;
 }
 
@@ -37,12 +37,12 @@ a:hover   { color: rgb(232, 116, 0); text-decoration: none; }
 }
 
 .content {
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
+/*    background-color: rgb(255, 255, 255);
     border-left: 1px solid rgb(242, 153, 36);
     border-right: 1px solid rgb(242, 153, 36);
     border-bottom: 1px solid rgb(242, 153, 36);
-    border-top: 1px solid rgb(242, 153, 36);
+    border-top: 1px solid rgb(242, 153, 36);*/
+    padding: 30px;
 }
 
 .pull-up {
@@ -419,4 +419,24 @@ footer {
   text-align: center;
   width: 100%;
   font-size: 10px;
+}
+
+/*****************************************************************************/
+/*
+/* POD
+/*
+/*****************************************************************************/
+
+#today-div {
+  min-height: 350px;
+  max-width: 500px;
+}
+
+#today-description{
+  text-align: center;
+  font-style: italic;
+}
+
+.gallery img{
+  margin: 20px;
 }
