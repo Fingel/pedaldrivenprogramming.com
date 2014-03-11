@@ -15,11 +15,9 @@ permalink: /pod/
     </div>
 </div>
 <div class="row">
-    <span class="col-lg-8">
     <h2>Previous PODs</h2>
     <p>I try to take one photo every day. You can view the set on <a href="https://secure.flickr.com/photos/103377679@N03/sets/72157642172999344/">Flickr</a></p>
     <p id="pods" class="gallery"></p>
-    </span>
 </div>
 <div class="row">
     <span class="col-lg-4"><a href="#" id="prev-link" style="display:none"><< Prev </a></span>
@@ -27,8 +25,8 @@ permalink: /pod/
 </div>
 <script src="/js/jquery.colorbox-min.js"></script>
 <script type="text/javascript">
-//var photoset_id = '72157642172999344'
-var photoset_id = '72157635929089523'
+var photoset_id = '72157642172999344'
+//var photoset_id = '72157635929089523'
 
 $('#today').bind('load', function(){
     $(this).fadeIn()
@@ -50,9 +48,9 @@ $(document).ready(function(){
 
 function fetchImages(page){
     $("#pods").html('')
-    per_page = 9
+    per_page = 10
     if(page == 1)
-        per_page = 10
+        per_page = 11
     flickr_url = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=e00dc224952287c6d55ec51de88754fc&photoset_id=' + photoset_id +'&extras=date_taken%2Curl_sq%2C+url_t%2C+url_s%2C+url_m%2C+url_o&per_page=' + per_page + '&page=' + page + '&format=json&nojsoncallback=1'
     var jqxhr = $.getJSON(flickr_url, function(data){
         photos = data.photoset.photo
@@ -72,7 +70,7 @@ function fetchImages(page){
         if(page == 1)
             photos.shift()
         for(image in photos){
-            var item = $('<a target="_blank" href="' + photos[image].url_m + '"><img src="' + photos[image].url_s + '" rel="gal" /></a><span class="prev-text">"' + photos[image].title + '" ' + photos[image].datetaken.split(' ')[0] + '</span>').hide().fadeIn(2000)
+            var item = $('<a target="_blank" href="' + photos[image].url_m + '"><img src="' + photos[image].url_s + '" rel="gal" /></a>').hide().fadeIn(2000)
             $('#pods').append(item)
         }
     })
