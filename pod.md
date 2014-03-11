@@ -9,7 +9,7 @@ published: true
 permalink: /pod/
 ---
 <div class="row">
-    <div id="today-div" class="col-lg-8">
+    <div id="today-div">
         <a href="" target="_blank" id="today-link"><img id="today" style="display:none"/></a>
         <p id="today-description"></p>
     </div>
@@ -17,11 +17,15 @@ permalink: /pod/
 <div class="row">
     <h2>Previous PODs</h2>
     <p>I try to take one photo every day. You can view the set on <a href="https://secure.flickr.com/photos/103377679@N03/sets/72157642172999344/">Flickr</a></p>
-    <p id="pods" class="gallery"></p>
+    <div id="pods" class="gallery"></div>
+    <div class="pod-nav">
+        <a href="#" id="prev-link" style="display:none"><< Prev </a>
+        <a href="#" id="more-link" style="display:none">Next >> </a>
+    </div>
+
 </div>
 <div class="row">
-    <span class="col-lg-4"><a href="#" id="prev-link" style="display:none"><< Prev </a></span>
-    <span class="col-lg-4 pull-right"><a href="#" id="more-link" style="display:none">Next >> </a></span>
+
 </div>
 <script src="/js/jquery.colorbox-min.js"></script>
 <script type="text/javascript">
@@ -32,8 +36,10 @@ $('#today').bind('load', function(){
     $(this).fadeIn()
 })
 
-$('#more-link, #prev-link').click(function(){
+$('#more-link, #prev-link').click(function(e){
+    e.preventDefault()
     fetchImages($(this).data('page'))
+    return false;
 })
 
 $(document).ready(function(){
@@ -70,13 +76,13 @@ function fetchImages(page){
         if(page == 1)
             photos.shift()
         for(image in photos){
-            var item = $('<a target="_blank" href="' + photos[image].url_m + '"><img src="' + photos[image].url_s + '" rel="gal" /></a>').hide().fadeIn(2000)
+            var item = $('<figure class="pod-item-wrapper"><a target="_blank" href="' + photos[image].url_m + '"><img src="' + photos[image].url_s + '" rel="gal" /></a><figcaption>' + photos[image].title +  ' ' + photos[image].datetaken.split(' ')[0] + '</figcaption></figure>').hide().fadeIn(2000)
             $('#pods').append(item)
         }
     })
 
     jqxhr.done(function(){
-        $('p.gallery > a').colorbox({rel:'gal'});
+        $('ul.gallery > li> a').colorbox({rel:'gal'});
     })
 }
 </script>

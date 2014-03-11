@@ -438,5 +438,23 @@ footer {
 }
 
 .gallery img{
-  margin: 20px;
+  margin: auto;
+  min-width: 50%;
+  max-height: 149px;
+}
+
+.pod-item-wrapper{
+  float: left;
+  /*margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;*/
+  min-width: 50%;
+  margin-bottom: 20px;
+}
+
+.pod-nav {
+  height: 50px;
+  width: 100%;
+  clear: both;
+  text-align: center;
 }
