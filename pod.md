@@ -44,7 +44,7 @@ $('#more-link, #prev-link').click(function(e){
 
 $(document).ready(function(){
     fetchImages(1)
-    flickr_url = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=e00dc224952287c6d55ec51de88754fc&photoset_id=' + photoset_id +'&extras=date_taken%2Curl_sq%2C+url_t%2C+url_s%2C+url_m%2C+url_o&per_page=1&page=1&format=json&nojsoncallback=1'
+    flickr_url = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=377b339d6924ffa502236994dfe17e2c&photoset_id=' + photoset_id +'&extras=date_taken%2Curl_sq%2C+url_t%2C+url_s%2C+url_m%2C+url_o&per_page=1&page=1&format=json&nojsoncallback=1'
     $.getJSON(flickr_url, function(data){
         $("#today-link").attr('href', 'https://secure.flickr.com/photos/' + data.photoset.owner + '/' + data.photoset.photo[0].id)
         $("#today").attr('src', data.photoset.photo[0].url_m)
@@ -57,7 +57,7 @@ function fetchImages(page){
     per_page = 10
     if(page == 1)
         per_page = 11
-    flickr_url = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=e00dc224952287c6d55ec51de88754fc&photoset_id=' + photoset_id +'&extras=date_taken%2Curl_sq%2C+url_t%2C+url_s%2C+url_m%2C+url_o&per_page=' + per_page + '&page=' + page + '&format=json&nojsoncallback=1'
+    flickr_url = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=377b339d6924ffa502236994dfe17e2c&photoset_id=' + photoset_id +'&extras=date_taken%2Curl_sq%2C+url_t%2C+url_s%2C+url_m%2C+url_o&per_page=' + per_page + '&page=' + page + '&format=json&nojsoncallback=1'
     var jqxhr = $.getJSON(flickr_url, function(data){
         photos = data.photoset.photo
         page = parseInt(data.photoset.page)
