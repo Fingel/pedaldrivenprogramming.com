@@ -76,13 +76,13 @@ function fetchImages(page){
         if(page == 1)
             photos.shift()
         for(image in photos){
-            var item = $('<figure class="pod-item-wrapper"><a target="_blank" href="' + photos[image].url_m + '"><img src="' + photos[image].url_s + '" rel="gal" /></a><figcaption>' + photos[image].title +  ' ' + photos[image].datetaken.split(' ')[0] + '</figcaption></figure>').hide().fadeIn(2000)
+            var item = $('<figure class="pod-item-wrapper"><a target="_blank" title="' + photos[image].title + '" href="' + photos[image].url_o + '"><img src="' + photos[image].url_s + '" rel="gal" /></a></figure>').hide().fadeIn(2000)
             $('#pods').append(item)
         }
     })
 
     jqxhr.done(function(){
-        $('ul.gallery > li> a').colorbox({rel:'gal'});
+        $('div.gallery > figure > a').colorbox({rel:'gal', maxWidth: '90%', maxHeight: '85%', scalePhotos: true});
     })
 }
 </script>
