@@ -44,7 +44,7 @@ $(document).ready(function(){
     fetchImages(1)
     flickr_url = 'https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=377b339d6924ffa502236994dfe17e2c&user_id=103377679%40N03&min_taken_date=1393632000&extras=description%2C+date_upload%2C+date_taken%2C+url_sq%2C+url_t%2C+url_s%2C+url_q%2C+url_m%2C+url_n%2C+url_z%2C+url_c%2C+url_l%2C+url_o&per_page=1&page=1&format=json&nojsoncallback=1'
     $.getJSON(flickr_url, function(data){
-        $("#today-link").attr('href', 'https://secure.flickr.com/photos/' + data.photos.photo[0].owner + '/' + data.photos.photo[0].id)
+        $("#today-link").attr('href', data.photos.photo[0].url_o)
         $("#today").attr('src', data.photos.photo[0].url_l)
         $("#today-description").html('"' + data.photos.photo[0].title + '"')
    })
