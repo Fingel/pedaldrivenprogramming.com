@@ -5,8 +5,7 @@ date: 2014-04-30 11:13:04 -0700
 categories: code
 ---
 
-I hate time. I especially hate dates. There is no single form of data that I hate
-working with while programming less.
+I hate time. I especially hate dates. There is not a single data type I hate working with more.
 
 I think the problem boils down to the fact that they seem so arbitrary. The [Gregorian calendar](http://en.wikipedia.org/wiki/Gregorian_calendar) just doesn't translate over well to binary systems. Ideally, there would be 100
 seconds in every minute, 100 minutes in every hour, 100 hours in every day, etc. But no. We must deal with weird numbers like 60, 24 and 31 (but sometimes 28, or maybe 30) and all the inconsistencies they cause.
