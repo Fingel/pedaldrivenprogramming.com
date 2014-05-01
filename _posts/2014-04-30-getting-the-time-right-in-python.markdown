@@ -79,8 +79,8 @@ Because daylight savings time, that's why. Add another point to time's suckiness
 At least we can figure out if we are in daylight savings or not:
 
 {% highlight python %}
-In [7]: time.daylight
-Out[7]: 1
+In [1]: time.daylight
+Out[1]: 1
 # Looks like we are in daylight saving time! I'm just having the best time ever!
 {% endhighlight %}
 
@@ -94,8 +94,8 @@ Additional Methods
 Takes a named struct like the ones returned by `time.localtime()` and `time.gmtime()` and converts it to a unix timestamp:
 
 {% highlight python %}
-In [28]: time.mktime(time.gmtime())
-Out[28]: 1398921105.0
+In [1]: time.mktime(time.gmtime())
+Out[1]: 1398921105.0
 {% endhighlight %}
 
 Not terribly useful in that context, but you'll want to use it in conjunction with:
@@ -106,9 +106,9 @@ Takes a string and parses out a time in the format of a named struct, the same f
 can be found [here](https://docs.python.org/2/library/time.html#time.strftime):
 
 {% highlight python %}
-In [2]: today = time.strptime('4/30/2014', "%m/%d/%Y")
-In [3]: time.mktime(today)
-Out[3]: 1398841200.0
+In [1]: today = time.strptime('4/30/2014', "%m/%d/%Y")
+In [2]: time.mktime(today)
+Out[2]: 1398841200.0
 
 {% endhighlight %}
 
@@ -197,13 +197,13 @@ In [2]: first_of_this_month
 Out[3]: datetime.date(2014, 4, 1)
 
 In [4]: first_of_this_month.timetuple()
-Out[5]: time.struct_time(tm_year=2014, tm_mon=4, tm_mday=1, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=1, tm_yday=91, tm_isdst=-1)
+Out[4]: time.struct_time(tm_year=2014, tm_mon=4, tm_mday=1, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=1, tm_yday=91, tm_isdst=-1)
 
-In [6]: time.mktime(first_of_this_month.timetuple())
-Out[7]: 1396335600.0
+In [5]: time.mktime(first_of_this_month.timetuple())
+Out[5]: 1396335600.0
 
-In [8]: datetime.date.fromtimestamp(1396335600.0)
-Out[9]: datetime.date(2014, 4, 1)
+In [6]: datetime.date.fromtimestamp(1396335600.0)
+Out[6]: datetime.date(2014, 4, 1)
 
 {% endhighlight %}
 
