@@ -12,6 +12,13 @@ permalink: /projects/
 The following are a few examples of projects I have worked on in my free
 time.
 
+The Mutha ******* Weather
+-------------------------
+It was a rainy weekend and in angst over not being able to ride my bike,
+I created  [this website](http://www.muthafuckingweather.com).
+
+[Github](https://github.com/WD-42/mfwdotcom)
+
 Shaftoe - PGP Web Service
 --------------------------
 Shaftoe is a simple web service to encrypt messages using public keys using
