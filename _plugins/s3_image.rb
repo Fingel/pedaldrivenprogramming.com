@@ -6,12 +6,18 @@ module Jekyll
       args = split_params(params)
       @image_name = args[0]
       @alt_text = args[1]
+      @width = args[2]
+      @height = args[3]
     end
 
     def render(context)
         site = context.registers[:site]
         page_id = context.environments.first["page"]["id"]
-        "<img title=\"#{@alt_text}\" alt=\"#{@alt_text}\" src=\"" + site.config['image_url'] + "/" + page_id.gsub('/','-').sub('-', '') + "/#{@image_name}\"/>"
+        image_url = site.config['image_url'] + "/" + page_id.gsub('/','-').sub('-', '') + "/#{@image_name}"
+
+        "<a href=\"" + image_url + "\">
+        <img width=\"#{@width}\" height=\"#{@height}\" title=\"#{@alt_text}\" alt=\"#{@alt_text}\" src=\"" + image_url + "\"/>
+        </a>"
     end
   end
 end
