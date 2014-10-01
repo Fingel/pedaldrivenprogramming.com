@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Photo of the Day
+title: Photostream
 categories: []
 tags: []
 status: publish
@@ -15,8 +15,7 @@ permalink: /pod/
     </div>
 </div>
 <div class="row">
-    <h2>Previous PODs</h2>
-    <p>I try to take one photo every day. You can view all of them on <a href="https://secure.flickr.com/photos/103377679@N03/sets/72157642172999344/">Flickr</a>.</p>
+    <p>View on <a href="https://secure.flickr.com/photos/103377679@N03/sets/72157642172999344/">Flickr</a>.</p>
     <div id="pods" class="gallery"></div>
     <div class="pod-nav">
         <a href="#" id="prev-link" style="display:none"><< Prev </a>
