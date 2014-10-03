@@ -7,7 +7,7 @@ categories: astronomy
 
 Pretty great.
 
-I recently began taking classes at my [local community college](http://www.cabrillo.edu/) out of interest in astronomy. The college offers an AS that is pretty impressive: it requires an (expected) amount of physics classes but also proved many astronomy specific classes dealing with planetary science, cosmology and observational astronomy. I was surprised and impressed after I took a look at the catalog - it didn't take me long to enroll.
+I recently began taking classes at my [local community college](http://www.cabrillo.edu/) out of interest in astronomy. The college offers an AS that is pretty impressive: it requires an (expected) amount of physics classes but also includes many astronomy specific classes dealing with planetary science, cosmology and observational astronomy. I was surprised and impressed after I took a look at the catalog - it didn't take me long to enroll.
 
 I suppose I was expecting to be sharing classes with the stereotypical community college crowd.
 
@@ -19,7 +19,7 @@ Instead I found a class full of (mostly) willing students taught by an accomplis
 
 Somewhere, sometime, someone had lied to me.
 
-Now I'm not saying I regret getting my BS. But so far I am very impressed with the value I receive from this public institution as well as what it represents. I see it as something completely different from a university education. For many people a standard degree from a four year university means they can learn when they must, not because they want to. This is what the real world job market demands and people incur hideous amounts of debt in order to prove their ability. A lot of people get degrees in fields they don't even care about because it doesn't really matter.
+Now I'm not saying I regret getting my BS. But so far I am very impressed with the value I receive from this public institution as well as what it represents. I see it as something completely different from a university education. For many people receiving a standard degree from a four year university proves they can learn when they must, not because they want to. People will put themselves in obscene amounts of debt to receive a degree because the real world job market demands it. Employers want workers that have the ability to learn how to do a job quickly and effectively.
 
 On the other hand those going to local colleges just for the sake of learning are receiving an education with no ulterior motives. Judging by academia a class at a community college has very little worth and actually this liberates the student to be educated. It means the value derived by the student is 100% intrinsic - the opposite of the perceived value of a prestigious university degree. In this way the student can focus on the content of what they are learning instead of attaining the certification of having done so (thinking critically instead of cramming for tests).
 
