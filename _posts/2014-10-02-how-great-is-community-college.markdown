@@ -7,7 +7,7 @@ categories: astronomy
 
 Pretty great.
 
-I recently began taking classes at my [local community college](http://www.cabrillo.edu/) out of interest in astronomy. The college offers an AS that is pretty impressive: it requires an (expected) amount of physics classes but also includes many astronomy specific classes dealing with planetary science, cosmology and observational astronomy. I was surprised and impressed after I took a look at the catalog - it didn't take me long to enroll.
+I recently began taking classes at [Cabrillo Community College](http://www.cabrillo.edu/) in Santa Cruz California out of interest in astronomy. The college offers an AS that is pretty impressive: it requires an (expected) amount of physics classes but also includes many astronomy specific classes dealing with planetary science, cosmology and observational astronomy. I was surprised and impressed after I took a look at the catalog - it didn't take me long to enroll.
 
 I suppose I was expecting to be sharing classes with the stereotypical community college crowd.
 
@@ -15,9 +15,9 @@ I suppose I was expecting to be sharing classes with the stereotypical community
 
 But I was very, very wrong. Many, if not most, of the students seemed genuinely interested in being there. How could this be? Community college was supposed to be the place you went because you had to, not because you wanted to. I was expecting a class full of bored teenagers taught by a washed up high school teacher looking for a paycheck.
 
-Instead I found a class full of (mostly) willing students taught by an accomplished, published PHD in astrophysics. Instantly my perception of community colleges transformed from state mandated academic detention centers to bastions of democratic learning. Here was a place where one could educate themselves in a variety of subjects, with tons of flexibility, on a beautiful campus, all for less than the cost of a Netflix subscription.
+Instead I found a class full of (mostly) willing students taught by [Dr. Rick Nolthenius](http://www.cabrillo.edu/~rnolthenius/), an accomplished, published astrophysicist. Instantly my perception of community colleges transformed from state mandated academic detention centers to bastions of democratic learning. Here was a place where one could educate themselves in a variety of subjects, with tons of flexibility, on a beautiful campus, all for less than the cost of a Netflix subscription.
 
-Somewhere, sometime, someone had lied to me.
+Somewhere, sometime, I had gotten the wrong impression.
 
 Now I'm not saying I regret getting my BS. But so far I am very impressed with the value I receive from this public institution as well as what it represents. I see it as something completely different from a university education. For many people receiving a standard degree from a four year university proves they can learn when they must, not because they want to. People will put themselves in obscene amounts of debt to receive a degree because the real world job market demands it. Employers want workers that have the ability to learn how to do a job quickly and effectively.
 
