@@ -5,6 +5,7 @@ date: 2014-10-04 17:53:30 -0600
 categories: other featured
 featured_image: howler.png
 ---
+<meta property="og:image" content="http://s3-us-west-2.amazonaws.com/pedaldp/images/2014-10-a-troop-of-monkeys-crosses-the-road/003.jpg" />
 Over the last week in Nicaragua I've seen a lot of new and interesting wildlife. I spotted a fearless [pygmy owl](https://www.flickr.com/photos/103377679@N03/15216679298/) on my first day here that let me get within 10 feet while shooting photos! Last night we went to a beach to watch some sea turles [lay their eggs](https://www.flickr.com/photos/103377679@N03/15439446002/), that was pretty cool too. But it's hard to beat the mantled howler monkey.
 
 <a href="http://s3-us-west-2.amazonaws.com/pedaldp/images/2014-10-a-troop-of-monkeys-crosses-the-road/003.jpg" alt="jump">
