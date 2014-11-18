@@ -453,3 +453,7 @@ footer {
   clear: both;
   text-align: center;
 }
+
+.projects > div {
+  margin: 10px 0px;
+}
