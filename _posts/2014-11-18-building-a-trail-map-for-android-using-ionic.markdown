@@ -8,6 +8,8 @@ featured_image: granitemaps.png
 
 {% s3_image phone.png, phone %}
 
+__Edit 11/27/2014: GraniteMaps Santa Cruz is now available on the iOS store! [link](https://itunes.apple.com/us/app/granitemaps-santa-cruz/id944142392?mt=8&uo=4)__
+
 It took me a while, but over the weekend I officially submitted my [first app into the Google Play Store](https://play.google.com/store/apps/details?id=com.ionicframework.gmsantacruz735722):
 
 >GraniteMaps: Santa Cruz is a digital trail map for those looking to hike, ride or trot the trails in and around Santa Cruz, CA. GraniteMaps: Santa Cruz provides an easy to read topographical map, current location, trail list, and extra information on local wildlife.
