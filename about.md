@@ -8,18 +8,15 @@ type: page
 published: true
 permalink: /about/
 ---
-
-I'm Austin Riba. This website is a collection of my thoughts, discoveries and projects.
-
-The first entry on this blog dates back to [November 2006](/2006/11/second-day-in-auckland/). The site has changed a lot since then and so has it's author.
-I've gone on to graduate high school and college. I've worked as a [raft guide](http://toxiccode.com/misc/life/raft.jpg), a [winery vine wrangler](http://toxiccode.com/misc/life/grapes.jpg)
-and a [software engineer](/2013/06/restore-the-fourth/).
-I've travelled the globe and [raced my bike](http://toxiccode.com/misc/life/race.jpg).
-
-I like computers and programming. The idea that in this age we can create something beautiful using not much more than our minds - then share these creations instantly with the world is a concept that has fascinated and inspired me since the day I laid hands on my first keyboard.
-
-I'm not all tech. Cycling (especially the variant performed off-road) is one of my biggest passions and is guaranteed to provide me a feeling of absolute freedom every time my feet touch the pedals. I spend a great deal of time in nature, try to live a simple life light on material possessions and tend to [relocate more often than is reasonable](http://toxiccode.com/misc/life).
-
-Through my experiences and knowledge I hope to contribute something beneficial to a society where creativity, exploration and freedom of expression are valued over material wealth, sterilized career paths and censorship. This website is my attempt at documenting that pursuit.
-
-I can be reached at root@austinriba.com - [PGP key](http://toxiccode.com/misc/pubkey.txt)
+<div class="row">
+    <div class="col-md-8">
+    <p>I'm a software engineer living in Santa Cruz, CA. I enjoy combining my
+    passion for nature with my love for programming. I believe software should
+    be educational, elegant and unobtrusive. If you feel the same, please get
+    in touch!</p>
+    <p><strong>root@austinriba.com</strong></p>
+</div>
+<div class="col-md-4">
+    <img src="/img/me.jpg">
+</div>
+</div>
