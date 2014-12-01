@@ -24,11 +24,9 @@ permalink: /pod/
 
 </div>
 <div class="row">
-
 </div>
 <script src="/js/jquery.colorbox-min.js"></script>
 <script type="text/javascript">
-
 $('#today').bind('load', function(){
     $(this).fadeIn()
 })
