@@ -17,7 +17,7 @@ permalink: /projects/
                 <h3>GraniteMaps: Santa Cruz</h3>
             </a>
             <a href="http://www.granitemaps.com">Website</a> / <a href="https://play.google.com/store/apps/details?id=com.ionicframework.gmsantacruz735722">Play Store</a> / <a href="https://itunes.apple.com/us/app/granitemaps-santa-cruz/id944142392?mt=8&uo=4">iOS Store</a>
-            <p>GraniteMaps: Santa Cruz is an interactive trail map for Wilder Ranch State Park and the University of California: Santa Cruz upper campus area. Available in the Android and iOS app stores.</p>
+            <p>GraniteMaps: Santa Cruz is an interactive trail map for Wilder Ranch State Park and the University of California: Santa Cruz upper campus area. Available in the Android and iOS app stores. Featured in the <a href="http://www.santacruzsentinel.com/sports/20141208/santa-cruzan-creates-local-trail-map-app">Santa Cruz Sentinel</a>.</p>
         </div>
         <div class="col-md-6">
             <a href="http://www.muthafuckingweather.com">

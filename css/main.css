@@ -135,9 +135,9 @@ svg > * {
     fill: #3f3f3f;
 }
 svg text {
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 900;
-    font-family: Helvetica;
+    font-family: 'Oswald', Helvetica;
 }
 
 .go-clockwise {
