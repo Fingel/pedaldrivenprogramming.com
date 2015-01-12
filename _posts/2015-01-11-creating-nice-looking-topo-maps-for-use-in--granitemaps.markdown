@@ -2,7 +2,7 @@
 layout: post
 title: Creating nice looking topo maps for use in GraniteMaps
 date: 2015-01-11 17:35:08 -0800
-categories: maps, code, granitemaps
+categories: maps code granitemaps
 ---
 
 The goal of [GraniteMaps](http://granitemaps.com "GraniteMaps") is to provide accurate and educational maps for
