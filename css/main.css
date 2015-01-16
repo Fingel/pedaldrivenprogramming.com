@@ -34,6 +34,13 @@ h1 { margin-bottom: 1em; }
 .categories {
   text-align: right;
 }
+
+@media (max-width: 992px){
+  .categories {
+    text-align: left;
+  }
+}
+
 h2 { font-size: 26px; }
 p { margin: 1em 0; }
 
@@ -98,7 +105,6 @@ img .header {
 }
 .affix-top{
   margin-top: 20px;
-  margin-bottom: 75px;
 }
 
 .sidebar{
