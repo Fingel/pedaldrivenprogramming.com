@@ -2,7 +2,7 @@
 layout: post
 title: Observations on observational astronomy
 date: 2014-08-28 19:15:56 -0700
-categories: other featured
+categories: astronomy featured
 featured_image: astro.png
 ---
 Astronomy: So hot right now.
@@ -28,4 +28,3 @@ Since then I've gone to a star party at Henry Coe, observed many more objects in
 What's next? Learning, learning, more learning. Astronomy is really a hobby of the mind. And the best part about it is that I yet know Nothing about it.
 
 {% s3_image lagoon.jpg, Lagoon Nebula %}
-

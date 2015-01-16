@@ -2,10 +2,8 @@
 layout: post
 title: How Gnar? Cycling App for Android
 categories:
-- Android
 - Cycling
-- Programming
-- Technology
+- Code
 tags:
 - Android
 - App

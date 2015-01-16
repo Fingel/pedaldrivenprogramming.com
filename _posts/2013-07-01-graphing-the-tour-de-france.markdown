@@ -2,7 +2,7 @@
 layout: post
 title: Graphing the Tour De France
 categories:
-- Rides
+- Cycling
 - Code
 tags:
 - data

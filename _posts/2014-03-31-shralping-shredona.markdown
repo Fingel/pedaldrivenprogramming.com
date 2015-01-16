@@ -2,7 +2,7 @@
 layout: post
 title: Shralping Shredona (The Weirdest Place to Ride in the World)
 date: 2014-03-31 02:56:18 -0700
-categories: bikes
+categories: cycling
 ---
 {% s3_image newagebullshit.jpg, new age bullshit %}
 

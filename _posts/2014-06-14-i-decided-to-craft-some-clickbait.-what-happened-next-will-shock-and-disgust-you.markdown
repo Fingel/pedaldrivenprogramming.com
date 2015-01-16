@@ -2,7 +2,7 @@
 layout: post
 title: I decided to craft some clickbait. What happened next will shock and disgust you
 date: 2014-06-14 10:41:28 -0700
-categories: misc
+categories: code
 ---
 
 As evidenced by this website, every once and a while I'll write something. Although my regular readership approaches nil when you take my mother, google bot, and myself out of the running I'll still post a link to facebook and see if I can get some clicks. Usually I'll get 10-20 visits (thanks guys!) and I'll leave it at that.
@@ -31,4 +31,3 @@ As of now, the page is up to *350* views. Thats 10x more than a "good article" I
 Appealing to the lowest common denominator obviously works. Once I somehow regain my faith in humanity, I'll think about possibly taking advantage of this fact.
 
 And no, I'm not going to post this on facebook. Because screw you guys.
-

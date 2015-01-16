@@ -2,7 +2,7 @@
 layout: post
 title: Photographing the Great Nebula in Orion
 date: 2014-12-05 16:57:39 -0800
-categories: other
+categories: astronomy
 ---
 
 {% s3_image m42.png, orion nebula %}

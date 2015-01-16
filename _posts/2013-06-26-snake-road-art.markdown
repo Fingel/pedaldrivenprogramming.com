@@ -3,7 +3,7 @@ layout: post
 title: Snake Road is Awesome. Soon it Won't Be.
 categories:
 - Art
-- Rides
+- Cycling
 tags:
 - art
 - graffiti

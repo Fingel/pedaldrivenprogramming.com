@@ -2,7 +2,7 @@
 layout: post
 title: Photographing Comet Jacques
 date: 2014-11-18 20:33:15 -0800
-categories: Astronomy
+categories: astronomy
 ---
 
 {% s3_image comet.jpg, Comet %}

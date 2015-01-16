@@ -2,7 +2,7 @@
 layout: post
 title: Building a trail map for Android using Ionic and Leaflet
 date: 2014-11-18 14:50:23 -0800
-categories: code, featured
+categories: code cartography granitemaps featured
 featured_image: granitemaps.png
 ---
 
@@ -49,13 +49,3 @@ _Ionic: Good. Leaflet: Great. Actually riding: Better than both._
 Building this app was an enjoyable and educational experience. With a few tweaks, I wouldn't hesitate to use the same stack again, especially as Ionic is continually improving.
 
 As for the app itself I admit it is rewarding to have an app in a smart phone store that you can tell your friends to install. If anyone will actually use it remains to be seen. I even managed to squeeze an easter egg in. There are trails in that map that are hidden, and only nofreds can access them with special knowledge. Good luck and thanks for reading.
-
-
-
-
-
-
-
-
-
-

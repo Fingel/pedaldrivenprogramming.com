@@ -2,7 +2,7 @@
 layout: post
 title: Photographing the Triangulum Galaxy
 date: 2014-12-09 21:05:50 -0800
-categories: other
+categories: astronomy
 ---
 
 {% s3_image triangulum.jpg, triangulum galaxy %}

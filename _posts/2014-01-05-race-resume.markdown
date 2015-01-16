@@ -2,7 +2,7 @@
 layout: post
 title: Race Resume
 date: 2014-01-05 17:14:19 -0800
-categories: bikes
+categories: cycling
 ---
 
 I was recently asked to put together a race resume for a cycling team I am

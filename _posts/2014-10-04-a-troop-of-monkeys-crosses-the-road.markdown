@@ -2,7 +2,7 @@
 layout: post
 title: A Troop of Monkeys Crosses the Road
 date: 2014-10-04 17:53:30 -0600
-categories: other featured
+categories: photography featured
 featured_image: howler.png
 ---
 <meta property="og:image" content="http://s3-us-west-2.amazonaws.com/pedaldp/images/2014-10-a-troop-of-monkeys-crosses-the-road/003.jpg" />
@@ -44,4 +44,3 @@ Check out this animated gif of an adult howler making the crossing, but oh no! S
 But the youngling must get to the other side and so she does. Not without taking a second to check me out on the way!
 
 {% s3_image baby.gif, baby %}
-

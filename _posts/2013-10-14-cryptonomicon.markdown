@@ -28,14 +28,14 @@ monitor. Beware of creepy vans.
 WWII era submarines were pretty cool
 ------------------------------------
 I suppose my mental image of submarines was always that of the cold war
-stealthy black nuclear cucumbers that rarely surfaced. Far from the truth. 
+stealthy black nuclear cucumbers that rarely surfaced. Far from the truth.
 The first submarines actually [looked more like boats](https://upload.wikimedia.org/wikipedia/commons/c/c5/U995_2004_1.jpg)
 and spent most of their time on the surface - diving when necessary in order
 to evade enemies or attack them. 1,155 German U-Boats were put into combat
 and 725 were sunk equaling a death rate of 82% - the highest death rate of any
 armed forces in modern war. Yet they were also extremely effective, at
 least initially. Over the course of the war, German U-Boats sunk over 2,900
-allied ships. 
+allied ships.
 
 Remember the Pacific theater?
 -----------------------------
@@ -60,5 +60,4 @@ to the Allies' eventual victory.
 
 All in all a great read about Nerds in World War II and their nerdy offspring
 in the 90s. I would recommend this book to anyone who is interested in math,
-cryptography and history. 
-
+cryptography and history.
