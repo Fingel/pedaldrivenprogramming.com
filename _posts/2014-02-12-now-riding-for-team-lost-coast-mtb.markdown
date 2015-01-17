@@ -10,6 +10,8 @@ Thats right, I'm on a real bike team now. I'm not talking about a team like
 [Team Dirtbag](http://www.teamdirtbag.com) I'm talking about a full legit bike team
 with kits, sponsors and *free stuff, bro*.
 
+<!--more-->
+
 {% s3_image rad.jpg, rad %}
 
 Our main sponsors are [Lost Coast Brewing](http://www.lostcoast.com/) and [Marin

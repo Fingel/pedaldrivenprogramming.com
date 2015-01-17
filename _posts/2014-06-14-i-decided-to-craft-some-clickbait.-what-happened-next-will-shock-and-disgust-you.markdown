@@ -7,6 +7,8 @@ categories: code
 
 As evidenced by this website, every once and a while I'll write something. Although my regular readership approaches nil when you take my mother, google bot, and myself out of the running I'll still post a link to facebook and see if I can get some clicks. Usually I'll get 10-20 visits (thanks guys!) and I'll leave it at that.
 
+<!--more-->
+
 Yesterday I was scrolling down my facebook news feed (something I try not to do anymore) and realized my feed was filled nearly completely with crap headlines like this:
 
 "The 9 Most Epic Texting Pranks Of All Time. The 3rd One Killed Me...LOL!"

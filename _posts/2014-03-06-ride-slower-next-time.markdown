@@ -9,6 +9,8 @@ categories: cycling
 
 Sometimes it becomes far too easy to get caught up in the distractions of being heavily involved in a sport like Mountain Biking. There's the constant guilt of staying in shape, the ever changing and evolving equipment industry, and of course the big question: "Am I fast enough?"
 
+<!--more-->
+
 You know you're in deep when you go on a ride with someone and it's a complete sufferfest the entire time. When you aren't hyperventilating the conversation always seems to be about parts, tires, grams, grams, grams. Is the fact that I notice this a sign of burnout? I don't think so. I think I've just moved on.
 
 It seems our attitude towards riding tends to come full circle after a while. You get started on bikes they get you stoked. Then once you start getting faster it becomes about continuing to get faster. Fancy equipment and training help you along your way. So riding becomes about that for a while. And then you come back.

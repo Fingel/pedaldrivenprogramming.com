@@ -9,6 +9,8 @@ The default behaviour of angular's [ng-grid](http://angular-ui.github.io/ng-grid
 By default using the arrow keys will select multiple rows. I was looking for behaviour that would only select rows if ctrl or shift were being held.
 ng-grid also seems to have [an issue](https://github.com/angular-ui/ng-grid/issues/1275) with not showing the currently selected row in the viewport, causing the table not to scroll properly. The following code placed in your `gridOptions` object addresses both issues:
 
+<!--more-->
+
 {% highlight javascript %}
 beforeSelectionChange: function(rowItem, event){
     if(!event.ctrlKey && !event.shiftKey && event.type != 'click'){

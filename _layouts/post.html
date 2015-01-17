@@ -4,12 +4,9 @@ layout: default
 <div class="row content pull-up">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="row">
-    <div class="col-md-6">
-    <span class="meta"><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</span>
-    </div>
-    <div class="col-md-6 categories">
-    <span><i class="fa fa-tags"></i> {{page.categories | category_links}}</span>
-    </div>
+      <div class="col-md-12 meta">
+        <span class="meta"><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</span><span><i class="fa fa-tags"></i> {{page.categories | category_links}}</span>
+      </div>
     </div>
     <div class="post">
     {{ content }}

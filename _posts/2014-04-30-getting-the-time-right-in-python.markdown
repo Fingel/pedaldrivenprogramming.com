@@ -14,6 +14,8 @@ seconds in every minute, 100 minutes in every hour, 100 hours in every day, etc.
 
 I'm going to lay out some of the modules and function in Python relevant to working with time.
 
+<!--more-->
+
 The time module
 ===============
 Documentation: [https://docs.python.org/2/library/time.html](https://docs.python.org/2/library/time.html)

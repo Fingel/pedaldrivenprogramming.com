@@ -20,11 +20,22 @@ title: Pedal Driven Programming
   </div>
   {% endif %}
   <div class="row content">
-      <ul class="posts">
-        {% for post in paginator.posts %}
-          <li><span class="post-list">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
+    {% for post in paginator.posts %}
+      <div class="row">
+        <div class="col-md-12"><h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 meta">
+          <span><i class="fa fa-calendar"></i> {{ post.date | date_to_string }}</span> <span><i class="fa fa-tags"></i> {{post.categories | category_links}}</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 excerpt">
+          {{ post.excerpt }}
+          <a href="{{ post.url }}">Continue Reading...</a>
+        </div>
+      </div>
+    {% endfor %}
   </div>
   <!-- Pagination links -->
   <div class="pagination">

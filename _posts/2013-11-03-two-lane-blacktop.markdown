@@ -13,12 +13,14 @@ the way of cupholders or GPS units. Instead I was sitting
 on a lightly padded bucket seat surrounded by a bare metal frame and unsafe
 looking glass. To my left was a shift nob, an extremely minimal steering column
 and what I hoped to be a competent driver.
- 
+
 The Nova roared to life and I suddenly found myself in a world of deafening,
 explosive sound and a vibration so violent I thought my organs
-were going to shift places. 
+were going to shift places.
 
 The smell of exhaust all of a sudden became overpowering and immediately I understood that I loved the car.
+
+<!--more-->
 
 [*Two-Lane Blacktop*](http://www.imdb.com/title/tt0067893/?ref_=fn_al_tt_1)
 is a film that hails from the time of the Nova - the long past days when gas
@@ -33,7 +35,7 @@ but we lost any meaningful interaction with our surroundings while we travel.
 *Two-Lane Blacktop* is good simply as a time capsule of when long
 distance car travel in America meant driving through towns instead of over
 them. Many of the locations shot during the film are in towns that nowadays
-are nothing more than the end of some forgotten freeway exit, dying or gone completely. 
+are nothing more than the end of some forgotten freeway exit, dying or gone completely.
 
 The film has more to offer than muscle cars with it's unusual narrative and interesting cast.
 The nomadic "Driver", "Mechanic" and "Other Driver" were all musicians in their
@@ -44,9 +46,8 @@ later at the age of 25.
 The plot starts out simply as a race across the country between two vehicles
 (Brock Yates, organizer of the Cannonball, cited the film as an inspiration
 for the race) but quickly morphs into something completely different, with
-the race itself becoming nothing more than an afterthought by the end. 
+the race itself becoming nothing more than an afterthought by the end.
 The movie is extremely heavy with metaphor and contains minimal dialogue and a nearly
 non-existent soundtrack.
 
-Not for everyone, but personally I give this film a 5/5. 
-
+Not for everyone, but personally I give this film a 5/5.

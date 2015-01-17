@@ -15,6 +15,7 @@ written ones out there, so I won't waste your's. I would like to note some
 neat stuff that I either learned from *Cryptonomicon* or subjects that I became
 interested in as a direct result of reading it.
 
+<!--more-->
 
 Van Eck phreaking actually exists
 ---------------------------------

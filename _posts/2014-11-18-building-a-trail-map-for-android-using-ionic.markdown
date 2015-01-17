@@ -16,6 +16,8 @@ It took me a while, but over the weekend I officially submitted my [first app in
 
 So technically, how did all this come together? Using a bunch of awesome libraries held together by dirty hacks, of course!
 
+<!--more-->
+
 Ionic Framework
 ---------------
 

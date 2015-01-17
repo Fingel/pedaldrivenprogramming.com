@@ -12,6 +12,8 @@ Over the last week in Nicaragua I've seen a lot of new and interesting wildlife.
 <img src="http://s3-us-west-2.amazonaws.com/pedaldp/images/2014-10-a-troop-of-monkeys-crosses-the-road/003-resized.jpg">
 </a>
 
+<!--more-->
+
 These guys are abundant here in SW Nicaragua, and there are several troops alone in [Balcones de Majagual](http://www.balconesdemajagual.com/).
 Yesterday I was fortunate enough to witness an entire troop (troop is a group of monkeys) pass me by overhead. Where the road cuts through the forest the canopy is thinned, this makes it difficult for the monkeys to cross as there are few suitable areas to do it. Lucky for me, I just happened to be directly underneath such an area.
 

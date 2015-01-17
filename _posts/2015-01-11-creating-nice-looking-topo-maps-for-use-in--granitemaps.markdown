@@ -12,6 +12,8 @@ The map displayed in granitemaps is actually two layers: the "base map" and the 
 is responsible for displaying the details of the map's area such as land boundaries, rivers/lakes, major roads
 and elevation. The trail layer is an overlay of the actual trails and points of interest.
 
+<!--more-->
+
 Currently GraniteMaps uses [The National Map](http://viewer.nationalmap.gov/viewer/) provided by the USGS for the base layer. It's a good
 public domain map that includes major roads, hillshading, contour lines and place names. It does have it's issues, however:
 

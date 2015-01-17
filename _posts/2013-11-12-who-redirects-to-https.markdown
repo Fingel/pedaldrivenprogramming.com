@@ -16,6 +16,8 @@ over the weekend when I came across this tweet:
 Nobody seemed to be able to verify that number, so I fired out Geany and
 wrote some python to attempt at a verification myself.
 
+<!--more-->
+
 I downloaded the [Alexa top 1,000,000](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip)
 .csv and with a combination of cURL and Regex, was able to hack together
 a [working albeit ugly script](http://toxiccode.com/misc/httpscheck/httpscheck.py).

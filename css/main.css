@@ -25,8 +25,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-h1 { margin-bottom: 1em; }
-
 .post-title {
   line-height: 1.2em;
 }
@@ -44,20 +42,32 @@ h1 { margin-bottom: 1em; }
 h2 { font-size: 26px; }
 p { margin: 1em 0; }
 
-a         { color: rgb(204, 102, 0); text-decoration: none; }
-a:hover   { color: rgb(232, 116, 0); text-decoration: none; }
+a         { color: #3B7C8B; text-decoration: none; }
+a:hover   { color: #3B7C8B; text-decoration: none; }
 
 .container {
   margin-left: 0;
   margin-right: 0;
 }
 
+.excerpt {
+  margin-top: 10px;
+}
+
+.meta {
+  color: #727272;
+  font-size: 0.9em;
+}
+
+.meta > span {
+  margin-right: 10px;
+}
+
+.meta > i {
+  font-size: 0.8em;
+}
+
 .content {
-/*    background-color: rgb(255, 255, 255);
-    border-left: 1px solid rgb(242, 153, 36);
-    border-right: 1px solid rgb(242, 153, 36);
-    border-bottom: 1px solid rgb(242, 153, 36);
-    border-top: 1px solid rgb(242, 153, 36);*/
     padding: 30px;
 }
 
@@ -69,6 +79,7 @@ img {
   padding: 8px;
   border: 1px solid rgb(221, 221, 221);
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
 }
 
 img .header {
@@ -101,6 +112,15 @@ img .header {
 @media (max-width: 992px){
   .affix{
     position: relative;
+  }
+
+  .featured-item {
+    margin: auto;
+  }
+
+  .navlinks li {
+    display: inline;
+    margin-right: 10px;
   }
 }
 .affix-top{

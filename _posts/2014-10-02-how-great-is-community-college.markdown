@@ -9,6 +9,8 @@ Pretty great.
 
 I recently began taking classes at [Cabrillo Community College](http://www.cabrillo.edu/) in Santa Cruz California out of interest in astronomy. The college offers an AS that is pretty impressive: it requires an (expected) amount of physics classes but also includes many astronomy specific classes dealing with planetary science, cosmology and observational astronomy. I was surprised and impressed after I took a look at the catalog - it didn't take me long to enroll.
 
+<!--more-->
+
 I suppose I was expecting to be sharing classes with the stereotypical community college crowd.
 
 {% s3_image community.jpg, community %}

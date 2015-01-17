@@ -18,6 +18,8 @@ subject of the cycle.
 
 Except that a bicycle is a machine and a machine's utility is defined by it's use.
 
+<!--more-->
+
 Cycling saw a huge surge of popularity in the late 19th century. In particular the invention of
 the [safety bicycle](https://en.wikipedia.org/wiki/Safety_bicycle) and the pneumatic
 tire suddenly made the machines a practical and accessible means of transportation for

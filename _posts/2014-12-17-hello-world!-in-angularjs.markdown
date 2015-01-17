@@ -12,6 +12,7 @@ user to set up a bunch of boilerplate, file structure, etc.
 Here is the simplest Hello World in AngularJS I could come up with, and it still
 shows 2 way binding:
 
+<!--more-->
 
 {% highlight html %}
 <!doctype html>

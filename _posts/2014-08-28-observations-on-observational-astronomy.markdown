@@ -13,6 +13,8 @@ I've been doing a bit of astronomy myself. While I've always had an interest, it
 
 {% s3_image lick.jpg, lick %}
 
+<!--more-->
+
 On August 1st, I attended one of the [Lick observatoryy](http://www.ucolick.org/public/sumvispro.html) summer visitor programs. I got to observe the [cats eye nebula](http://cognitivedistortion.com/img/FG85/Space/51_The-Cats-Eye-Nebula.jpg) through the 40 inch Nickel telescope (Nickel is a name, not the element) and a star cluster I can not remember the name of through the 120 year old 36 inch [James Lick telescope](http://en.wikipedia.org/wiki/James_Lick_telescope). I left a changed man. Not only did my visit confirm my thoughts that, yea, astronomy is pretty rad - I met some very cool amateur astronomers that had great advice for any newbie interesting in exploring the cosmos. I went home that night seeing stars.
 
 

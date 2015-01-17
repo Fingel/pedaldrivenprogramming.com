@@ -17,11 +17,13 @@ why not make it interactive? So, I present to you:
 
 **[Best Songs of 2013 with Three.js](http://toxiccode.com/bestof2013/)**
 
+<!--more-->
+
 You can fly around and listen to each of the 6 songs that I chose while
 fighting both the controls and epilepsy! Be warned, you should have a
 modern browser and a decent tolerance for cheesy indie music or you will
 not enjoy this site.
- 
+
 Obviously, I used [Three.js](http://threejs.org/) to set the scene
 (pun intended) but I also used [Buzz.js](http://buzz.jaysalvat.com/)
 for handling the music because the native `<audio>` element was not holding
@@ -57,5 +59,3 @@ Just for completeness sake, here is the track list in no particular order:
 Source code (minus the songs, sorry) is [available on github](https://github.com/WD-42/bestof2013).
 
 Happy New Year!
-
- 

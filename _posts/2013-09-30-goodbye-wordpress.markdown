@@ -17,6 +17,7 @@ It doesn't even require a database and it allows me to tweak to my heart's
 content. Wordpress always seemed like a bit of a black box. Sure, the code
 was there, but it was daunting to even think about touching it.
 
+<!--more-->
 
 Certain things become more complicated with Jekyll, since by default pretty
 much everything is done manaully. The most trivial being just creatig a post.
@@ -27,7 +28,7 @@ for me. The real timesaver is creating a folder in _images/ for each post,
 and then syncing them with s3 with the s3sync task:
 
 {% highlight ruby %}
- 
+
 desc 'create new post. args: title, category'
 # rake new title="New post title goes here" category="category"
 task :new do
@@ -35,7 +36,7 @@ task :new do
   title = ENV["title"] || "New Title"
   category = ENV["category"] || "other"
   slug = title.gsub(' ','-').downcase
-   
+
   TARGET_DIR = "_posts"
 
   filename = "#{Time.new.strftime('%Y-%m-%d')}-#{slug}.markdown"
@@ -68,4 +69,3 @@ end
 
 This post was written in a text editor. It will be published to my vps
 with a `git push deploy master`. _Cool_.
-
