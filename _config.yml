@@ -1,0 +1,20 @@
+name: Pedal Driven Programming
+description: Musings of a programmer with a cycling problem (or is it the other way around?)
+markdown: redcarpet
+url: http://pedaldrivenprogramming.com
+highlighter: pygments
+permalink: /:year/:month/:title/
+plugins: _plugins/
+image_url: http://s3-us-west-2.amazonaws.com/pedaldp/images
+paginate: 10
+editor: subl
+excerpt_separator: "<!--more-->"
+flickr_set:
+  gallery_tag:   'p'
+  gallery_class: 'gallery'
+  a_href:        'b'
+  a_target:      '_blank'
+  image_rel:     'gal'
+  image_size:    's'
+  api_key:       '377b339d6924ffa502236994dfe17e2c'
+
