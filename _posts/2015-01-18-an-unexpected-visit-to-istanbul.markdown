@@ -7,7 +7,7 @@ categories: Greece
 
 Here I am in Istanbul (not Constantinople) the city on the Bosporus, the ribbon
 of land separating Europe from Asia and the Black sea from the Sea of Marmara
-and thus the Agean to the East. As my plane glided downward and spiraled towards the glittering
+and thus the Aegean to the East. As my plane glided downward and spiraled towards the glittering
 city I thought about the Golden Fleece and if it had seen a similar view on it's journey from Greece to
 Turkey 3 thousand years ago.
 
@@ -15,7 +15,7 @@ Turkey 3 thousand years ago.
 
 <!--more-->
 
-I had hoped to connect to my flight to Thessalonika immediately, but Turkey wanted me to stay.
+I had hoped to connect to my flight to Thessaloniki immediately, but Turkey wanted me to stay.
 Late flight, missed connection, security, visas, immigration (twice) and eventually a cramped ride
 in an airport shuttle to some hotel somewhere in Istanbul, an unsettling 45 minutes from the airport.
 
