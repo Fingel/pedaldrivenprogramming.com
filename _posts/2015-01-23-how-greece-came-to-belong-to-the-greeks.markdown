@@ -61,7 +61,7 @@ about how it is that Greeks came to find themselves in Greece:
 > up early in the morning. Oh! And this weather! We could barely walk in this wind, how were we supposed to get here on time?
 > Not to mention we wanted to do the laundry, so we could have clean clothes and--"
 
-> "Fine!" God exclaimed, exasperated. "There is one piece of land left, it is the best land in all the world and I was
-> saving it for myself. But I will give it to you if you just SHUT UP!"
+> "Fine!" God exclaimed, exasperated but defeated. "There is one piece of land left, it is the best land in all the world and I was
+> saving it for myself. But I will give it to you if you would please just SHUT UP!"
 
 > And so the Greeks were given the land of Greece.
