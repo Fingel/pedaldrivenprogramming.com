@@ -7,7 +7,7 @@ categories: greece
 
 I met Amalia at the Thessaloniki Pythess (Python) meetup (at which I gave
 [one awkward english presentationn](https://github.com/Fingel/pythess-ionic)) which had
-migrated to the lounge under the Archaeological Museum of Thessaloniki. I thought it looked pretty cool,
+migrated to a lounge under the Archaeological Museum of Thessaloniki. I thought the museum looked pretty cool,
 so I decided I would go the next day. I propositioned the group to see if anyone else was interested
 in joining me, Amalia was the only one brave enough to to say so.
 
