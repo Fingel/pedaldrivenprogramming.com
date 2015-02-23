@@ -14,22 +14,14 @@ permalink: /projects/
         <div class="col-md-6">
             <a href="http://www.granitemaps.com">
                 <img src="/img/projects/granitemaps.png">
-                <h3>GraniteMaps: Santa Cruz</h3>
+                <h3>GraniteMaps</h3>
             </a>
-            <a href="http://www.granitemaps.com">Website</a> / <a href="https://play.google.com/store/apps/details?id=com.ionicframework.gmsantacruz735722">Play Store</a> / <a href="https://itunes.apple.com/us/app/granitemaps-santa-cruz/id944142392?mt=8&uo=4">iOS Store</a>
-            <p>GraniteMaps: Santa Cruz is an interactive trail map for Wilder Ranch State Park and the University of California: Santa Cruz upper campus area. Available in the Android and iOS app stores. Featured in the <a href="http://www.santacruzsentinel.com/sports/20141208/santa-cruzan-creates-local-trail-map-app">Santa Cruz Sentinel</a>.</p>
+            <a href="http://www.granitemaps.com">Website</a>
+            <p>GraniteMaps is a collection of trail map apps for both Android
+            and iOS. The maps work 100% offline, are GPS enabled,
+            provide detailed trail descriptions and helpful information
+            on local wildlife and emergency contacts. Featured in the <a href="http://www.santacruzsentinel.com/sports/20141208/santa-cruzan-creates-local-trail-map-app">Santa Cruz Sentinel</a> and <a href="http://hilltromper.com/article/wilder-ranch-map-granitemaps">Hilltromper</a>.</p>
         </div>
-        <div class="col-md-6">
-            <a href="http://www.muthafuckingweather.com">
-                <img src="/img/projects/mfweather.png">
-                <h3> The Mutha ******* Weather</h3>
-            </a>
-            <a href= "http://www.muthafuckingweather.com">Website </a>/ <a href="https://github.com/Finge/mfwdotcom">Github</a>
-            <p>The result of being cooped up inside for too long as well as a poignant reminder of why relying on free 3rd party APIs is
-            never a good idea.</p>
-        </div>
-    </div>
-    <div class="row">
         <div class="col-md-6">
             <a href="/2013/09/shaftoe/">
                 <img src="/img/projects/shaftoe.png">
@@ -41,6 +33,8 @@ permalink: /projects/
             web application so that it may send encrypted communications to it's users.</p>
 
         </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <a href="http://toxiccode.com/codebook/">
                 <img src="/img/projects/codebook.png">
@@ -53,8 +47,6 @@ permalink: /projects/
             include the The Vigenere Cipher, a Frequency Analysis tool and Diffie-Hellman
             key exchange implemented in Javascript.</p>
         </div>
-    </div>
-    <div class="row">
         <div class="col-md-6">
             <a href="http://www.restorethe4th.com">
                 <img src="/img/projects/rt4.png">
@@ -68,6 +60,8 @@ permalink: /projects/
             dictated limits and respect the Fourth Amendment.</p>
 
         </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <a href="https://github.com/Fingel/fdtrade">
                 <img src="/img/projects/firetrades.png">
@@ -78,8 +72,6 @@ permalink: /projects/
             the San Francisco Fire department, which is apparently still stuck in the
             stone age.</p>
         </div>
-    </div>
-    <div class="row">
         <div class="col-md-6">
             <a href="https://github.com/Fingel/rentistry">
                 <img src="/img/projects/rentistry.png">
@@ -90,6 +82,8 @@ permalink: /projects/
             neighborhood (kayaks, lawn mowers, etc). Could be catagorized as part of
             the "share economy". Currently unfinished.</p>
         </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <a href="https://github.com/Fingel">
                 <img src="/img/projects/github.png">
