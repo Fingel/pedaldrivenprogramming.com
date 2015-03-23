@@ -12,6 +12,16 @@ permalink: /projects/
 <div class="projects">
     <div class="row">
         <div class="col-md-6">
+            <a href="http://www.astrochallenge.com">
+                <img src="/img/projects/astrochallenge.png">
+                <h3>AstroChallenge</h3>
+            </a>
+            <a href="http://astrochallenge.com">Website</a>
+            <p>AstroChallenge is a website where Amateur astronomers can
+            log their observations as well as participate in challenges
+            and discussion</p>
+        </div>
+        <div class="col-md-6">
             <a href="http://www.granitemaps.com">
                 <img src="/img/projects/granitemaps.png">
                 <h3>GraniteMaps</h3>
@@ -22,6 +32,8 @@ permalink: /projects/
             provide detailed trail descriptions and helpful information
             on local wildlife and emergency contacts. Featured in the <a href="http://www.santacruzsentinel.com/sports/20141208/santa-cruzan-creates-local-trail-map-app">Santa Cruz Sentinel</a> and <a href="http://hilltromper.com/article/wilder-ranch-map-granitemaps">Hilltromper</a>.</p>
         </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <a href="/2013/09/shaftoe/">
                 <img src="/img/projects/shaftoe.png">
@@ -33,8 +45,6 @@ permalink: /projects/
             web application so that it may send encrypted communications to it's users.</p>
 
         </div>
-    </div>
-    <div class="row">
         <div class="col-md-6">
             <a href="http://toxiccode.com/codebook/">
                 <img src="/img/projects/codebook.png">
@@ -47,6 +57,8 @@ permalink: /projects/
             include the The Vigenere Cipher, a Frequency Analysis tool and Diffie-Hellman
             key exchange implemented in Javascript.</p>
         </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <a href="http://www.restorethe4th.com">
                 <img src="/img/projects/rt4.png">
@@ -60,8 +72,6 @@ permalink: /projects/
             dictated limits and respect the Fourth Amendment.</p>
 
         </div>
-    </div>
-    <div class="row">
         <div class="col-md-6">
             <a href="https://github.com/Fingel/fdtrade">
                 <img src="/img/projects/firetrades.png">
@@ -72,6 +82,8 @@ permalink: /projects/
             the San Francisco Fire department, which is apparently still stuck in the
             stone age.</p>
         </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <a href="https://github.com/Fingel/rentistry">
                 <img src="/img/projects/rentistry.png">
@@ -82,8 +94,6 @@ permalink: /projects/
             neighborhood (kayaks, lawn mowers, etc). Could be catagorized as part of
             the "share economy". Currently unfinished.</p>
         </div>
-    </div>
-    <div class="row">
         <div class="col-md-6">
             <a href="https://github.com/Fingel">
                 <img src="/img/projects/github.png">
