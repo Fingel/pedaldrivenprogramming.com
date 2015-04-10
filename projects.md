@@ -17,9 +17,7 @@ permalink: /projects/
                 <h3>AstroChallenge</h3>
             </a>
             <a href="http://astrochallenge.com">Website</a>
-            <p>AstroChallenge is a website where Amateur astronomers can
-            log their observations as well as participate in challenges
-            and discussion</p>
+            <p>AstroChallenge is a mix between planetarium software and a social network for astronomers.</p>
         </div>
         <div class="col-md-6">
             <a href="http://www.granitemaps.com">
