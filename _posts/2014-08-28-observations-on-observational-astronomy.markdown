@@ -2,8 +2,7 @@
 layout: post
 title: Observations on observational astronomy
 date: 2014-08-28 19:15:56 -0700
-categories: astronomy featured
-featured_image: astro.png
+categories: astronomy
 ---
 Astronomy: So hot right now.
 
