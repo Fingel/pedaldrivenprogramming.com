@@ -6,7 +6,7 @@ categories: featured astrochallenge astronomy code
 featured_image: astrochallenge.png
 ---
 
-{% s3_image flammarion.jpg "Flammarion Engraving" %}
+{% s3_image flammarion.jpg, Flammarion Engraving %}
 
 I created [AstroChallenge](http://astrochallenge.com) to scratch my own itch: to have a place to keep an observation journal for astronomy and to share it with the rest of the community. In that I believe I've succeeded, check out [my profile and journal.](http://astrochallenge.com/accounts/profile/Austin/)
 
